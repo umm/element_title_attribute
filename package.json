@@ -1,0 +1,30 @@
+{
+  "name": "@umm/element_title_attribute",
+  "version": "0.0.0",
+  "description": "Attribute to display element title of array/list in inspector",
+  "homepage": "https://github.com/umm/element_title_attribute",
+  "bugs": {
+    "url": "https://github.com/umm/element_title_attribute/issues"
+  },
+  "scripts": {
+    "umm:init": "umm-init",
+    "umm:generate_assembly_definition": "umm-generate_assembly_definition",
+    "umm:module:install": "umm-module-install",
+    "umm:module:uninstall": "umm-module-uninstall",
+    "postinstall": "npm run --silent umm:module:install",
+    "postuninstall": "npm run --silent umm:module:uninstall"
+  },
+  "author": "Tetsuya Mori",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:umm/element_title_attribute"
+  },
+  "files": [
+    "Assets"
+  ],
+  "dependencies": {
+    "@umm/scripts": "umm/scripts#^1.0.0"
+  },
+  "devDependencies": {}
+}

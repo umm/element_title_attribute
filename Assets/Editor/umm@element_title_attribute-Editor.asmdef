@@ -1,0 +1,12 @@
+{
+    "name": "umm@element_title_attribute-Editor",
+    "references": [
+        "umm@element_title_attribute"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
