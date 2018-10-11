@@ -51,6 +51,11 @@ namespace UnityModule
                         TitleNameProperty.objectReferenceValue != null
                             ? TitleNameProperty.objectReferenceValue.ToString()
                             : string.Empty;
+                case SerializedPropertyType.ExposedReference:
+                    return
+                        TitleNameProperty.exposedReferenceValue != null
+                            ? TitleNameProperty.exposedReferenceValue.ToString()
+                            : string.Empty;
                 case SerializedPropertyType.LayerMask:
                     break;
                 case SerializedPropertyType.Enum:
