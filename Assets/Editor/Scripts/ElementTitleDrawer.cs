@@ -47,7 +47,10 @@ namespace UnityModule
                 case SerializedPropertyType.Color:
                     return TitleNameProperty.colorValue.ToString();
                 case SerializedPropertyType.ObjectReference:
-                    return TitleNameProperty.objectReferenceValue.ToString();
+                    return
+                        TitleNameProperty.objectReferenceValue != null
+                            ? TitleNameProperty.objectReferenceValue.ToString()
+                            : string.Empty;
                 case SerializedPropertyType.LayerMask:
                     break;
                 case SerializedPropertyType.Enum:
